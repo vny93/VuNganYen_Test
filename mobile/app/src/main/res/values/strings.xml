@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">mobile</string>
+    <string name="txt_header1">Handicrafted by</string>
+    <string name="txt_header2">Jim HLS</string>
+    <string name="txt_body1"><p>A joke a day the doctor away \n\n</p>
+<p><small>If you joke wrong way, your teeth have to pay. (Serious)</small></p></string>
+
+    <string name="txt_body2"><p><small>This appis created as part of Hlsolutions program. The material con- \ntained on
+this website are provided for general information only and \ndo not constitute any form of advice.
+HLS assumes no responsibility \nfor the accurary of any particular statement and accepts no liability
+\nfor any loss or damage which may arise from reliance on the infor- \nmation contained on this site \n\n</small></p>
+        <p><b>Copyright 2021 HLS</b></p></string>
+    <string name="txt_button_like">This is Funny!</string>
+    <string name="txt_button_dislike">This is not funny.</string>
+    <string name="txt_button_vote_again">Vote Again</string>
+
+
+</resources>
