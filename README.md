@@ -1,4 +1,4 @@
-# VuNganYen_Test
+# VuNganYen_Test_ZenS Company
 ## Nội Dung
 ### I. Algorithm
 - **Language: Kotlin**
