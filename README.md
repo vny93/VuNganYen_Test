@@ -14,10 +14,4 @@
 
 <img width="526" alt="Screen Shot 2023-03-17 at 22 28 10" src="https://user-images.githubusercontent.com/80116131/225949045-cd62922f-ef45-4fd6-b26d-2f6a11667339.png">
 
- <img width="409" alt="Screen Shot 2023-03-17 at 22 06 33" src="https://user-images.githubusercontent.com/80116131/225948659-c3e2b207-cbdf-48e5-8f10-222e3cae6c28.png">
-
-<img width="406" alt="Screen Shot 2023-03-17 at 22 06 46" src="https://user-images.githubusercontent.com/80116131/225948706-c00f2116-f110-4da6-9de7-d1f885aa379d.png">
-
-<img width="405" alt="Screen Shot 2023-03-17 at 22 06 57" src="https://user-images.githubusercontent.com/80116131/225948721-8120d8d6-5806-4292-8e56-3fbf286608d5.png">
-
-
+<img width="408" alt="Screen Shot 2023-03-30 at 13 56 30" src="https://user-images.githubusercontent.com/80116131/228754468-a2a3e64c-8597-4457-933b-066ff6249724.png">
