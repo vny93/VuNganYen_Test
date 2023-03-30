@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,140 +14,112 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_60sdp"
-            android:orientation="horizontal">
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="horizontal"
+            android:weightSum="3">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_minus40sdp"
-                android:src="@drawable/im1" />
+                style="@style/style_image"
+                android:src="@drawable/im1"
+                android:layout_weight="1"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_85sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_weight="2">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_header1"
-                    android:fontFamily="@font/myriadpropegular"
-                    android:textSize="@dimen/_12sdp"/>
+                    style="@style/style_text_header"
+                    android:textColor="@color/armadillo2"
+                    android:text="@string/txt_header1"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    style="@style/style_text_header"
                     android:text="@string/txt_header2"
-                    android:textColor="@color/black"
-                    android:layout_gravity="right"
-                    android:fontFamily="@font/myriadpropegular"
-                    android:textSize="@dimen/_12sdp"/>
+                    android:textColor="@color/armadillo"/>
 
             </LinearLayout>
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_minus15sdp"
-                android:src="@drawable/im2" />
+                style="@style/style_image"
+                android:src="@drawable/im2"
+                android:layout_weight="1"/>
         </LinearLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/greeen"
-            android:textColor="@color/white"
-            android:padding="@dimen/_20sdp"
-            android:gravity="center"
-            android:text="@string/txt_body1"
-            android:textSize="@dimen/_15sdp"
-            android:fontFamily="@font/myriadpropegular"/>
-        
+            style="@style/style_text_body1"
+            android:text="@string/txt_labeltext1"
+            android:paddingTop="@dimen/_30sdp"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_15sdp"/>
+
+        <TextView
+            style="@style/style_text_body1"
+            android:text="@string/txt_labeltext2"
+            android:paddingTop="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_20sdp"
+            android:textSize="@dimen/_10sdp"/>
+
         <TextView
             android:id="@+id/tv_body_joke"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_250sdp"
-            android:layout_marginTop="@dimen/_30sdp"
-            android:gravity="left"
-            android:padding="@dimen/_30sdp"
-            android:textSize="@dimen/_15sdp"
-            android:fontFamily="@font/myriadpropegular"/>
+            style="@style/style_text_body2"
+            android:layout_marginTop="@dimen/_10sdp"/>
 
         <TextView
             android:id="@+id/btn_vote_again"
-            android:layout_width="@dimen/_110sdp"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/myriadpropegular"
-            android:gravity="center"
+            style="@style/style_text_vote"
             android:layout_gravity="center"
-            android:padding="@dimen/_10sdp"
             android:background="@color/blue"
-            android:textColor="@color/white"
-            android:text="@string/txt_button_vote_again"
-            android:textSize="@dimen/_13sdp"/>
+            android:text="@string/txt_button_vote_again"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_30sdp"
-            android:layout_marginBottom="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
             android:gravity="center"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/btn_like"
-                android:layout_width="@dimen/_110sdp"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/myriadpropegular"
-                android:gravity="center"
-                android:padding="@dimen/_10sdp"
+                style="@style/style_text_vote"
                 android:background="@color/blue"
-                android:textColor="@color/white"
-                android:text="@string/txt_button_like"
-                android:textSize="@dimen/_13sdp"/>
+                android:text="@string/txt_button_like"/>
 
             <TextView
                 android:id="@+id/btn_dislike"
-                android:layout_width="@dimen/_110sdp"
-                android:layout_height="wrap_content"
+                style="@style/style_text_vote"
                 android:layout_marginStart="@dimen/_30sdp"
-                android:fontFamily="@font/myriadpropegular"
-                android:padding="@dimen/_10sdp"
-                android:gravity="center"
                 android:background="@color/greeen"
-                android:textColor="@color/white"
-                android:text="@string/txt_button_dislike"
-                android:textSize="@dimen/_13sdp"/>
+                android:text="@string/txt_button_dislike"/>
 
         </LinearLayout>
 
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/_1sdp"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_5sdp"
-            android:background="@color/gray"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:fontFamily="@font/myriadpropegular"
-            android:textSize="@dimen/_13sdp"
-            android:text="@string/txt_body2"/>
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/_2sdp"
-            android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginBottom="@dimen/_10sdp"
-            android:background="@color/gray" />
-
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <View
+            style="@style/style_line"
+            android:layout_marginBottom="@dimen/_5sdp"/>
 
-</ScrollView>
+        <TextView
+            style="@style/style_text"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/armadillo2"
+            android:text="@string/txt_labeltext3"/>
+
+        <TextView
+            style="@style/style_text"
+            android:textColor="@color/armadillo"
+            android:text="@string/txt_labeltext4"
+            android:textSize="@dimen/_11sdp"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+    </LinearLayout>
+</RelativeLayout>

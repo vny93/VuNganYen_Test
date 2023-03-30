@@ -7,9 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="greeen">#29b263</color>
-    <color name="blue">#2d7edb</color>
-    <color name="gray">#D3D4D5</color>
+    <color name="greeen">#36AC67</color>
+    <color name="blue">#317ED7</color>
+    <color name="tasman">#D8DCD7</color>
     <color name="yellow">#FFEB3B</color>
-
+    <color name="armadillo">#787878</color>
+    <color name="armadillo2">#a2a2a2</color>
 </resources>
